@@ -19,7 +19,7 @@ Sentiment classification system for fintech app reviews, comparing a fine-tuned 
 ### [Abeokuta 7-Day Weather Forecast](https://github.com/baqius/abeokuta-weather-forecast)
 Multi-step temperature forecasting system using a GRU neural network trained on nine years of historical weather data. Outperformed both a persistence baseline and a rolling-mean baseline on mean absolute error, with a deployed dashboard providing live forecasts and seasonally-aware recommendations.
 
-**Live demo:** https://opay-sentiment-bert-vs-rf.streamlit.app/
+**Live demo:** https://abeokuta-weather-forecast.streamlit.app/
 **Stack:** PyTorch, Streamlit, Visual Crossing API
 
 ---
@@ -27,7 +27,7 @@ Multi-step temperature forecasting system using a GRU neural network trained on 
 ### [AnimalPedia](https://github.com/baqius/animalpedia)
 Image classification system identifying 90 animal species via a fine-tuned EfficientNet-B1 model (87% test accuracy), combined with a searchable reference database. Includes a documented breakdown of model strengths and failure modes by species category.
 
-**Live demo:** https://opay-sentiment-bert-vs-rf.streamlit.app
+**Live demo:** https://animalpedia.streamlit.app/
 **Stack:** PyTorch, torchvision, Streamlit
 
 ---
