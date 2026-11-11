@@ -15,6 +15,13 @@ Sentiment classification system for fintech app reviews, comparing a fine-tuned 
 **Stack:** PyTorch, Transformers, scikit-learn, FastAPI, Docker, pytest
 
 ---
+### [BaqiusHealth AI](https://github.com/baqius/BaqiusHealth-AI)
+AI healthcare assistant that answers questions on symptoms, medications, dosing, and drug interactions, and lets users book in-clinic or telehealth appointments directly from the chat. Designed for reliability: Google Gemini generates streaming responses server-side, while a rule-based clinical engine with emergency-keyword detection takes over on timeouts or quota exhaustion, guarded by a circuit breaker that pauses AI calls after rate-limit errors. Delivered as a full-stack web app with a specialist directory, calendar-based scheduling, and a medication tracker.
+
+**Live demo:** https://baqiushealth-ai-healthcare-assistant-appointment-ca.ai.studio
+**Stack:** React, TypeScript, Vite, Tailwind CSS, Express, Google Gemini API, Server-Sent Events
+
+---
 
 ### [Abeokuta 7-Day Weather Forecast](https://github.com/baqius/abeokuta-weather-forecast)
 Multi-step temperature forecasting system using a GRU neural network trained on nine years of historical weather data. Outperformed both a persistence baseline and a rolling-mean baseline on mean absolute error, with a deployed dashboard providing live forecasts and seasonally-aware recommendations.
