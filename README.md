@@ -39,7 +39,7 @@ Image classification system identifying 90 animal species via a fine-tuned Effic
 
 ---
 
-### [Fitness Predictor](https://github.com/baqius/baqius-fitness-predictor)
+### [Fitness Predictor](https://github.com/baqius-fitness-predictor)
 End-to-end health classification system predicting individual fitness status from biometric and lifestyle data, with SHAP-based explainability behind every prediction and a personalized recommendation engine. Model selection was driven by ROC-AUC and generalization behavior rather than raw accuracy, given the asymmetric cost of false negatives in a health context.
 
 **Live demo:** https://baqiusfitnesspredictor.streamlit.app/
